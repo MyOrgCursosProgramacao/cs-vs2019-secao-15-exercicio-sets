@@ -13,7 +13,7 @@
 
         public override bool Equals(object obj)
         {
-           if (!(obj is Usuario))
+            if (!(obj is Usuario))
             {
                 return false;
             }
@@ -26,6 +26,13 @@
         public override int GetHashCode()
         {
             return Id.GetHashCode();
+        }
+
+        public override string ToString()
+        {
+            return Id
+                + ", "
+                + Nome;
         }
     }
 }
