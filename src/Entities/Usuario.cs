@@ -5,7 +5,7 @@
         public int Id { get; private set; }
         public string Nome { get; private set; }
 
-        protected Usuario(int id, string nome)
+        public Usuario(int id, string nome)
         {
             Id = id;
             Nome = nome;
