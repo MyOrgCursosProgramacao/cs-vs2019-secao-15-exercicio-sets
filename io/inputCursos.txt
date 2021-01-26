@@ -1,0 +1,5 @@
+1,Fisica,1,1
+2,Arquitetura,2,1,2
+3,Calculo,1,1,2,3
+4,Fisica dos materiais,1,2,3
+5,Trocador de fraldas,1,3
